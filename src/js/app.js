@@ -1,7 +1,12 @@
+import 'angular';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // MODULE
-var angularApp = angular.module('angularApp', []);
+var learnAngular = angular.module('learnAngular', []);
 
 // CONTROLLERS
-angularApp.controller('mainController', ['$scope', function ($scope) {
-    
+learnAngular.controller('mainController', ['$scope', function ($scope) {
+   // $scope.name = "Arpita";
+//	$scope.age = "21";
+	//$scope.occupation  = "programmer";
 }]);
